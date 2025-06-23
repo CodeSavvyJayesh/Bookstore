@@ -1,0 +1,96 @@
+/* Container */
+.otpverify-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  /* OTP Box */
+  .otpverify-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Title */
+  .otpverify-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Text */
+  .otpverify-text {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* OTP Input Container */
+  .otpverify-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* OTP Input */
+  .otpverify-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .otpverify-input:focus {
+    border-color: #ff5722;;
+    box-shadow: 0px 0px 5px #ff5722;;
+  }
+  
+  /* Verify Button */
+  .otpverify-button {
+    background-color:    #ff5722;
+;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .otpverify-button:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Resend OTP */
+  .otpverify-resend-text {
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .otpverify-resend-button {
+    background: none;
+    border: none;
+    color: #ff5722;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .otpverify-resend-button:hover {
+    text-decoration: underline;
+  }
+  
